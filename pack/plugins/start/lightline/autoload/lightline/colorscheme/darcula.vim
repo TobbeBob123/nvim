@@ -5,14 +5,14 @@
 " Last Change: 2017/02/11 21:18:54.
 " =============================================================================
 
-let s:black = [ '#2b2b2b', 235 ]
-let s:gray = [ '#323232', 236 ]
-let s:white = [ '#a9b7c6', 250 ]
-let s:blue = [ '#6897bb' , 67 ] 
-let s:green = [ '#629755', 71 ] 
-let s:purple = [ '#9876aa', 104 ]
-let s:red = [ '#ff6b68', 204 ]
-let s:yellow = [ '#ffc66d', 222 ]
+let s:black = [ '#282a36', 235 ]
+let s:gray = [ '#44475a', 236 ]
+let s:white = [ '#f8f8f2', 250 ]
+let s:blue = [ '#8be9fd' , 67 ] 
+let s:green = [ '#50fa7b', 71 ] 
+let s:purple = [ '#bd93f9', 104 ]
+let s:red = [ '#ff5555', 204 ]
+let s:yellow = [ '#f1fa8c', 222 ]
 
 let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {}}
 let s:p.normal.left = [ [ s:black, s:purple ], [ s:purple, s:gray ] ]
