@@ -14,7 +14,12 @@ set autoindent
 " Plugins
 call plug#begin()
 Plug 'josa42/nvim-lightline-lsp'
-call plug#end()
+,call plug#end()
+
+call plug#begin()
+Plug 'dracula/vim', { 'name': 'dracula' }
+,call plug#end()
+colorscheme dracula
 
 " Lightdm
 set laststatus=2 
